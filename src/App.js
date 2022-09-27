@@ -4,6 +4,8 @@ import Header from "./components/header";
 import Navbar from "./components/navbar";
 import Supplier from "./components/supplier";
 import Service from "./components/service";
+import Company from "./components/company";
+import Brand from "./components/brand";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Banner />
       <Supplier />
       <Service />
+      <Company />
+      <Brand />
     </>
   );
 }

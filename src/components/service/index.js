@@ -20,27 +20,57 @@ export default function Service() {
             backgroundPosition: "center",
           }}
         >
-          <div className="flex flex-col items-start justify-center absolute h-full w-full bg-darkLight left-0 top-0 py-36 px-28">
+          <div className="flex flex-col items-start justify-center absolute h-full w-full bg-darkLight left-0 top-0 py-36 pl-8">
             <h4 className="font-pop font-bold text-4xl text-white ">
               Modern natural oil and gas refineries.
             </h4>
             <a
-              className=" inline-block font-pop text-base font-medium text-white bg-primary py-4 px-5"
+              className=" inline-block font-pop text-base font-medium text-white bg-primary py-4 px-5 mt-5"
               href="#"
             >
               Learn More
             </a>
           </div>
         </div>
-        <div className="w-2/4">
-          <picture>
-            <img src="images/service2.png" alt="service" loading="lazy" />
-          </picture>
+        <div
+          className="w-2/4 py-36 relative"
+          style={{
+            background: "url(images/service2.png)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="flex flex-col items-start justify-center absolute h-full w-full bg-darkLight left-0 top-0 py-36 pl-8">
+            <h4 className="font-pop font-bold text-4xl text-white ">
+              Supply of national industries.
+            </h4>
+            <a
+              className=" inline-block font-pop text-base font-medium text-white bg-primary py-4 px-5 mt-5"
+              href="#"
+            >
+              Learn More
+            </a>
+          </div>
         </div>
-        <div className="w-2/4">
-          <picture>
-            <img src="images/service3.png" alt="service" loading="lazy" />
-          </picture>
+        <div
+          className="w-2/4 py-36 relative"
+          style={{
+            background: "url(images/service3.png)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="flex flex-col items-start justify-center absolute h-full w-full bg-darkLight left-0 top-0 py-36 pl-8">
+            <h4 className="font-pop font-bold text-4xl text-white ">
+              National fuel distribution and supply.
+            </h4>
+            <a
+              className=" inline-block font-pop text-base font-medium text-white bg-primary py-4 px-5 mt-5"
+              href="#"
+            >
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
     </section>
