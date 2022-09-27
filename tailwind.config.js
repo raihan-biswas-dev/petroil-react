@@ -11,6 +11,7 @@ module.exports = {
         para: "#6C6C6C",
         yellowborder: "#FFB800",
         afterborder: "#5C6A92",
+        darkLight: "rgba(0,0,0,.6)",
       },
       maxWidth: {
         container: "1144px",
