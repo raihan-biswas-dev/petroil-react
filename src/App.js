@@ -6,6 +6,7 @@ import Supplier from "./components/supplier";
 import Service from "./components/service";
 import Company from "./components/company";
 import Brand from "./components/brand";
+import Blog from "./components/blog";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Service />
       <Company />
       <Brand />
+      <Blog />
     </>
   );
 }
