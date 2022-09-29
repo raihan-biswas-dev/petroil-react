@@ -21,10 +21,10 @@ export default function Header() {
             </p>
           </div>
           <div className="w-2/4 flex justify-end gap-x-5">
-            <FaFacebookF className="text-white" />
-            <SiTwitter className="text-white" />
-            <FaLinkedinIn className="text-white" />
-            <BsInstagram className="text-white" />
+            <FaFacebookF className="text-white hover:text-primary ease-in duration-300" />
+            <SiTwitter className="text-white hover:text-primary ease-in duration-300" />
+            <FaLinkedinIn className="text-white hover:text-primary ease-in duration-300" />
+            <BsInstagram className="text-white hover:text-primary ease-in duration-300" />
           </div>
         </div>
       </div>

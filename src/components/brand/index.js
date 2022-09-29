@@ -4,7 +4,7 @@ export default function Brand() {
   return (
     <section className="bg-company py-24">
       <div className="max-w-container mx-auto">
-        <div className="flex ">
+        <div className="flex justify-center items-center ">
           <div className="">
             <picture>
               <img src="images/brand1.png" alt="" loading="lazy" />

@@ -13,6 +13,7 @@ module.exports = {
         afterborder: "#5C6A92",
         darkLight: "rgba(0,0,0,.6)",
         companybg: "#F0F0F0",
+        footerbg: "#1F1F1F",
       },
       maxWidth: {
         container: "1144px",
