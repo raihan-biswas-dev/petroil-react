@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <section className="w-full h-full bg-footerbg py-16">
       <div className="flex max-w-container mx-auto">
-        <div className="h-80 w-[30%]">
+        <div className=" w-[30%]">
           <picture>
             <img src="images/footer-logo.png" alt="logo" loading="lazy" />
           </picture>
@@ -45,7 +45,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="w-1/5 h-80">
+        <div className="w-1/5">
           <h4 className="font-pop font-bold text-base text-white mt-8">
             Company
           </h4>
@@ -84,7 +84,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="w-1/5 h-80">
+        <div className="w-1/5">
           <h4 className="font-pop font-bold text-base text-white mt-8">
             Others
           </h4>
@@ -123,7 +123,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className="h-80 w-[30%]">
+        <div className=" w-[30%]">
           <h4 className="font-pop font-bold text-base text-white mt-8 mb-5">
             Certificate
           </h4>

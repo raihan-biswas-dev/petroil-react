@@ -9,7 +9,7 @@ function Banner() {
             We exist since 1975 on the oil and gas industry.
           </h1>
           <a
-            className=" inline-block font-pop text-base font-medium text-white bg-primary py-4 px-5 ml-16"
+            className=" inline-block font-pop text-base font-medium text-white bg-primary py-4 px-5"
             href="#"
           >
             LEARN MORE
