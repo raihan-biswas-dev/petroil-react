@@ -18,6 +18,13 @@ module.exports = {
       maxWidth: {
         container: "1144px",
       },
+      screens: {
+        sm: "375px",
+
+        sml: "734px",
+
+        md: "768px",
+      },
     },
   },
 };
