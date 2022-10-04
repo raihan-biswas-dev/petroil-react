@@ -127,7 +127,7 @@ export default function Footer() {
           <h4 className="font-pop font-bold text-base text-white mt-8 mb-5">
             Certificate
           </h4>
-          <div className="flex gap-8">
+          <div className="flex gap-8 justify-between">
             <div className="bg-white py-2 px-3 rounded-md">
               <h3 className="font-pop font-bold text-2xl text-[#008AD8]">
                 ISO 88
