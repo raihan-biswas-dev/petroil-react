@@ -20,8 +20,8 @@ function Supplier() {
           </div>
         </div>
       </div>
-      <div className="flex px-2.5 md:px-0 mt-[80px] flex-col md:flex-row md:justify-between gap-3">
-        <div className="sml:w-1/2 md:w-auto">
+      <div className="flex px-2.5 md:px-0 mt-[80px] flex-col sml:flex-row flex-wrap  md:flex-nowrap md:justify-between ">
+        <div className="sml:w-2/4 md:w-auto">
           <picture>
             <img
               className="w-full"
@@ -31,7 +31,7 @@ function Supplier() {
             />
           </picture>
         </div>
-        <div className="sml:w-1/2 md:w-auto">
+        <div className="sml:w-2/4 md:w-auto">
           <picture>
             <img
               className="w-full"
@@ -41,7 +41,7 @@ function Supplier() {
             />
           </picture>
         </div>
-        <div className="sml:w-1/2 md:w-auto">
+        <div className="sml:w-2/4 md:w-auto">
           <picture>
             <img
               className="w-full"
@@ -51,7 +51,7 @@ function Supplier() {
             />
           </picture>
         </div>
-        <div className="sml:w-1/2 md:w-auto">
+        <div className="sml:w-2/4 md:w-auto">
           <picture>
             <img
               className="w-full"
