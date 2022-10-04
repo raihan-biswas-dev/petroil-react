@@ -3,10 +3,10 @@ import React from "react";
 function Supplier() {
   return (
     <section className="mt-[80px]">
-      <div className="max-w-container mx-auto">
-        <div className="flex justify-between items-center">
+      <div className="max-w-container mx-auto px-2.5 md:px-0">
+        <div className="md:flex justify-between items-center">
           <div className="max-w-[289px]">
-            <h2 className="font-pop font-bold text-5xl leading-[72px]">
+            <h2 className="font-pop font-bold text-[30px] md:text-5xl md:leading-[72px]">
               The biggest supplier on the country
             </h2>
           </div>
@@ -20,25 +20,45 @@ function Supplier() {
           </div>
         </div>
       </div>
-      <div className="flex  mt-[80px] justify-between gap-3">
-        <div>
+      <div className="flex px-2.5 md:px-0 mt-[80px] flex-col md:flex-row md:justify-between gap-3">
+        <div className="sml:w-1/2 md:w-auto">
           <picture>
-            <img src="images/supplier1.png" alt="supplier" loading="lazy" />
+            <img
+              className="w-full"
+              src="images/supplier1.png"
+              alt="supplier"
+              loading="lazy"
+            />
           </picture>
         </div>
-        <div>
+        <div className="sml:w-1/2 md:w-auto">
           <picture>
-            <img src="images/supplier2.png" alt="supplier" loading="lazy" />
+            <img
+              className="w-full"
+              src="images/supplier2.png"
+              alt="supplier"
+              loading="lazy"
+            />
           </picture>
         </div>
-        <div>
+        <div className="sml:w-1/2 md:w-auto">
           <picture>
-            <img src="images/supplier3.png" alt="supplier" loading="lazy" />
+            <img
+              className="w-full"
+              src="images/supplier3.png"
+              alt="supplier"
+              loading="lazy"
+            />
           </picture>
         </div>
-        <div>
+        <div className="sml:w-1/2 md:w-auto">
           <picture>
-            <img src="images/supplier4.png" alt="supplier" loading="lazy" />
+            <img
+              className="w-full"
+              src="images/supplier4.png"
+              alt="supplier"
+              loading="lazy"
+            />
           </picture>
         </div>
       </div>
